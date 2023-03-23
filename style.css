@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: sans-serif;
+    outline: none;
+}
+button{
+    width:100%;
+    padding:20px;
+}
+.container{
+    width:80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Calculator{
+    background-color: #ecf0f3;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #dfecf7,inset -5px -5px 12px #dfecf7,inset 5px 5px 12px #dfecf7,inset -5px -5px 12px #dfecf7;
+    margin-top: 80px;
+}
+input{
+    width:100%;
+    height: 80px;
+    background-color: #ecf0f3;
+    border: 1px solid #bee1fc;
+    box-shadow: inset -5px -5px 12px #dfecf7,inset -5px -5px 12px #dfecf7,
+     inset 5px 5px 12px #dfecf7,inset 5px 5px 12px #dfecf7;
+    border-radius: 10px;
+    color:rgb(70, 70, 90);
+    font-size: 30px;
+    text-align: end;
+    padding: 20px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+button{
+    background-color: #dfecf7;
+    box-shadow:-5px -5px 12px #bee1fc,-5px -5px 12px #bee1fc,-5px -5px 12px #ecf0f3,-5px -5px 12px #ecf0f3,
+      5px 5px 12px #bee1fc,5px 5px 12px #bee1fc, 5px 5px 12px #dfecf7, 5px 5px 12px #dfecf7;
+    border:none;
+    margin:5px;
+    font-size: 20px;
+}
+button:hover{
+    border-bottom: 2px solid skyblue;
+    border-right: 2px solid skyblue;
+}
